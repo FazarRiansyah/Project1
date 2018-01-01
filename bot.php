@@ -3,7 +3,7 @@ require_once('./line_class.php');
 
 $channelAccessToken = ''; 
 $channelSecret = '';
-$client = new LINEBotTiny($channelAccessToken, $channelSecret);
+$client = new LINEBotTiny($jhB+26GgpPZYjuBLsC6SfDRa+T/9oY7PFjaa6jWKlIY7I+FXRWWQqbdiPfT6TUvetpDmU9ludYBWThoiPiDsOmnTATSLDgadFx5jE6EgvMoFM/xM0zGOv7hv5ixdulV3lDFoZmLlqChsvp0X56ebzwdB04t89/1O/w1cDnyilFU=, $6a0d4e83e1d0198373f3de1d03866d06);
 $userId 	= $client->parseEvents()[0]['source']['userId'];
 $replyToken = $client->parseEvents()[0]['replyToken'];
 $timestamp	= $client->parseEvents()[0]['timestamp'];
