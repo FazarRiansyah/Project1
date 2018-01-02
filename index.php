@@ -1,3 +1,3 @@
 <?php
-echo "ngentod";
+echo "Fazar Riansyah GANTENG";
 ?>
