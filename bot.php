@@ -124,5 +124,6 @@ if($message['type']=='text'){
         )
     );
 	}
+
 }
 $client->replyMessage($balas);
