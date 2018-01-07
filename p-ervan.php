@@ -33,7 +33,7 @@ if($message['type']=='text'){
 										array(
 											'type' => 'uri',
 											'label' => 'PING',
-											'text' => 'www.facebook.com'
+											'text' => 'https://www.facebook.com/'
 										)
 									)
 								),
